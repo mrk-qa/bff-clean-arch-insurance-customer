@@ -10,3 +10,13 @@ management:
     web:
       exposure:
         include: health,info
+
+external:
+  customer-api:
+    base-url: http://localhost:8081
+
+  policy-api:
+    base-url: http://localhost:8081
+
+  vehicle-api:
+    base-url: http://localhost:8081
